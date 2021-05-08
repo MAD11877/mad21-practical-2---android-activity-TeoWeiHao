@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     followButton.setText("Unfollow");
                     user.setFollowed(true);
+                }
             }
         });
     }
